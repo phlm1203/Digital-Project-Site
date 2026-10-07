@@ -1,6 +1,6 @@
-import Mapa from '../components/Mapa';
+import Mapa from '../ajustes/mapa';
 
-function Contato() {
+function contato() {
   return (
     <section className="contact">
       <div className="contact-info">
@@ -25,4 +25,4 @@ function Contato() {
   );
 }
 
-export default Contato;
+export default contato;
