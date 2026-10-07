@@ -24,23 +24,17 @@ img {
 
 .header {
   min-height: 72px;
-
   display: flex;
   align-items: center;
-
   padding: 18px 7%;
-
   background: #ffffff;
   color: #222222;
-
   border-bottom: 1px solid #eeeeee;
 }
 
 .logo {
   margin-right: auto;
-
   color: #222222;
-
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -74,7 +68,6 @@ nav a:hover {
 
 nav a.active {
   color: #111111;
-
   border-bottom: 1px solid #111111;
 }
 
@@ -106,7 +99,6 @@ nav a.active {
 
 .btn-small {
   padding: 8px 13px;
-
   font-size: 9px;
 }
 
@@ -125,9 +117,7 @@ nav a.active {
 
 .hero h1 {
   margin: 10px 0;
-
   color: #222222;
-
   font-size: clamp(42px, 6vw, 76px);
   line-height: 0.95;
   font-weight: 300;
@@ -136,11 +126,8 @@ nav a.active {
 
 .hero p {
   max-width: 430px;
-
   margin: 25px 0 0;
-
   color: #777777;
-
   font-size: 12px;
   line-height: 1.8;
   font-weight: 300;
@@ -148,7 +135,6 @@ nav a.active {
 
 .eyebrow {
   color: #777777;
-
   font-size: 9px;
   font-weight: 400;
   letter-spacing: 0.15em;
@@ -158,33 +144,26 @@ nav a.active {
 .hero-image {
   width: 100%;
   height: 520px;
-
   overflow: hidden;
 }
 
 .hero-image img {
   width: 100%;
   height: 100%;
-
   display: block;
-
   object-fit: cover;
 }
 
 .section {
   width: min(1120px, 86%);
-
   margin: 0 auto;
-
   padding: 90px 0;
 }
 
 .section h1,
 .section h2 {
   margin-top: 0;
-
   color: #222222;
-
   font-weight: 300;
   letter-spacing: -0.04em;
 }
@@ -209,32 +188,24 @@ nav a.active {
 
 .about {
   width: min(1120px, 86%);
-
   margin: 0 auto;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   align-items: center;
-
   gap: 70px;
-
   padding: 100px 0;
 }
 
 .about-image {
   width: 100%;
   height: 420px;
-
   overflow: hidden;
 }
 
 .about-image img {
   width: 100%;
   height: 100%;
-
   display: block;
-
   object-fit: cover;
 }
 
@@ -244,7 +215,6 @@ nav a.active {
 
 .about-content h2 {
   margin: 0 0 20px;
-
   font-size: 30px;
   font-weight: 300;
   letter-spacing: -0.03em;
@@ -252,35 +222,27 @@ nav a.active {
 
 .about-content p {
   margin: 0;
-
   color: #777777;
-
   font-size: 12px;
   line-height: 1.9;
 }
 
 .mission {
   width: 100%;
-
   padding: 85px 7%;
-
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
 .mission-inner {
   width: min(1120px, 100%);
-
   margin: 0 auto;
 }
 
 .mission-label {
   display: block;
-
   margin-bottom: 20px;
-
   color: #888888;
-
   font-size: 9px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -288,11 +250,8 @@ nav a.active {
 
 .mission-text {
   max-width: 900px;
-
   margin: 0;
-
   color: #222222;
-
   font-size: clamp(25px, 4vw, 46px);
   line-height: 1.08;
   font-weight: 300;
@@ -301,34 +260,24 @@ nav a.active {
 
 .projeto-grid {
   display: grid;
-
   grid-template-columns: repeat(2, minmax(0, 1fr));
-
   gap: 25px;
-
   margin-top: 35px;
 }
 
 .projeto-card {
   position: relative;
-
   overflow: hidden;
-
   background: #eeeeee;
-
   border-radius: 0;
-
   box-shadow: none;
 }
 
 .projeto-card img {
   width: 100%;
   height: 300px;
-
   display: block;
-
   object-fit: cover;
-
   transition: transform 0.3s ease;
 }
 
@@ -342,37 +291,27 @@ nav a.active {
 
 .card-content p {
   min-height: auto;
-
   margin: 8px 0 0;
-
   color: #777777;
-
   font-size: 11px;
   line-height: 1.7;
 }
 
 .card-content strong {
   display: block;
-
   margin: 0;
-
   color: #222222;
-
   font-size: 18px;
   font-weight: 400;
 }
 
 .project-overlay {
   position: absolute;
-
   left: 0;
   right: 0;
   bottom: 0;
-
   padding: 30px 20px 20px;
-
   color: #ffffff;
-
   background: linear-gradient(
     transparent,
     rgba(0, 0, 0, 0.75)
@@ -381,25 +320,20 @@ nav a.active {
 
 .project-overlay strong {
   display: block;
-
   margin-bottom: 5px;
-
   font-size: 17px;
   font-weight: 400;
 }
 
 .project-overlay p {
   margin: 0;
-
   font-size: 10px;
   line-height: 1.5;
 }
 
 .projects-page {
   width: min(1120px, 86%);
-
   margin: 0 auto;
-
   padding: 65px 0 110px;
 }
 
@@ -410,29 +344,22 @@ nav a.active {
 
 .project-item {
   display: grid;
-
   grid-template-columns: 1.4fr 1fr;
-
   gap: 50px;
-
   padding: 45px 0;
-
   border-bottom: 1px solid #eeeeee;
 }
 
 .project-item-image {
   width: 100%;
   height: 290px;
-
   overflow: hidden;
 }
 
 .project-item-image img {
   width: 100%;
   height: 100%;
-
   display: block;
-
   object-fit: cover;
 }
 
@@ -446,14 +373,12 @@ nav a.active {
   margin-bottom: 12px;
 
   color: #999999;
-
   font-size: 9px;
   letter-spacing: 0.1em;
 }
 
 .project-item h3 {
   margin: 0 0 15px;
-
   font-size: 25px;
   line-height: 1.1;
   font-weight: 300;
@@ -462,20 +387,15 @@ nav a.active {
 
 .project-item p {
   max-width: 430px;
-
   margin: 0;
-
   color: #777777;
-
   font-size: 11px;
   line-height: 1.8;
 }
 
 .project-detail {
   width: min(1120px, 86%);
-
   margin: 0 auto;
-
   padding: 70px 0 110px;
 }
 
@@ -485,7 +405,6 @@ nav a.active {
 
 .project-detail-header h1 {
   margin: 0 0 12px;
-
   font-size: clamp(40px, 6vw, 70px);
   line-height: 0.95;
   font-weight: 300;
@@ -494,7 +413,6 @@ nav a.active {
 
 .project-detail-header span {
   color: #888888;
-
   font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -503,62 +421,45 @@ nav a.active {
 .project-detail-main-image {
   width: 100%;
   height: 570px;
-
   overflow: hidden;
-
   margin-bottom: 40px;
 }
 
 .project-detail-main-image img {
   width: 100%;
   height: 100%;
-
   display: block;
-
   object-fit: cover;
 }
 
 .project-detail-description {
   max-width: 760px;
-
   margin: 0 0 65px;
-
   color: #666666;
-
   font-size: 12px;
   line-height: 1.9;
 }
 
 .gallery {
   width: min(1120px, 86%);
-
   margin: 0 auto;
-
   padding: 60px 0 110px;
-
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
-
   gap: 10px;
 }
 
 .gallery-item {
   aspect-ratio: 1 / 1;
-
   overflow: hidden;
-
   background: #eeeeee;
 }
 
 .gallery-item img {
   width: 100%;
   height: 100%;
-
   display: block;
-
   object-fit: cover;
-
   transition: transform 0.3s ease;
 }
 
@@ -568,17 +469,11 @@ nav a.active {
 
 .contact {
   width: min(1120px, 86%);
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: 1.2fr 0.8fr;
-
   gap: 60px;
-
   align-items: start;
-
   padding: 70px 0 110px;
 }
 
@@ -605,11 +500,8 @@ nav a.active {
 
 .contact-label {
   display: block;
-
   margin-bottom: 9px;
-
   color: #888888;
-
   font-size: 9px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -617,9 +509,7 @@ nav a.active {
 
 .contact p {
   margin: 0;
-
   color: #555555;
-
   font-size: 12px;
   line-height: 1.7;
 }
@@ -630,29 +520,21 @@ nav a.active {
 
 .footer {
   padding: 55px 7%;
-
   background: #292929;
-
   color: #dddddd;
-
   text-align: center;
 }
 
 .footer-inner {
   width: min(1120px, 100%);
-
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: 1.4fr repeat(3, 1fr);
-
   gap: 45px;
 }
 
 .footer-brand {
   color: #ffffff;
-
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.05em;
@@ -661,20 +543,15 @@ nav a.active {
 .footer-column {
   display: flex;
   flex-direction: column;
-
   gap: 2px;
-
   color: #dddddd;
-
   font-size: 15px;
   line-height: 1.5;
 }
 
 .footer-title {
   margin-bottom: 7px;
-
   color: #999999;
-
   font-size: 9px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -683,7 +560,6 @@ nav a.active {
 .footer-column a,
 .footer-column span {
   color: #dddddd;
-
   font-size: 10px;
   line-height: 1.5;
 }
@@ -695,7 +571,6 @@ nav a.active {
 .divider {
   width: 100%;
   height: 1px;
-
   background: #eeeeee;
 }
 
@@ -768,15 +643,12 @@ nav a.active {
   .portfolio-header-inner {
     flex-direction: column;
     align-items: flex-start;
-
     gap: 15px;
   }
 
   .portfolio-nav {
     width: 100%;
-
     gap: 16px;
-
     overflow-x: auto;
   }
 
