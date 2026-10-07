@@ -1,10 +1,10 @@
-import imgGaleria1 from '../assets/galeria/img-galeria1.png';
-import imgGaleria2 from '../assets/galeria/img-galeria2.png';
-import imgGaleria3 from '../assets/galeria/img-galeria3.png';
-import imgGaleria4 from '../assets/galeria/img-galeria4.png';
-import imgGaleria5 from '../assets/galeria/img-galeria5.png';
-import imgGaleria6 from '../assets/galeria/img-galeria6.png';
-import imgGaleria7 from '../assets/galeria/img-galeria7.png';
+import imgGaleria1 from '../assets/img-galeria/img-galeria1.png';
+import imgGaleria2 from '../assets/img-galeria/img-galeria2.png';
+import imgGaleria3 from '../assets/img-galeria/img-galeria3.png';
+import imgGaleria4 from '../assets/img-galeria/img-galeria4.png';
+import imgGaleria5 from '../assets/img-galeria/img-galeria5.png';
+import imgGaleria6 from '../assets/img-galeria/img-galeria6.png';
+import imgGaleria7 from '../assets/img-galeria/img-galeria7.png';
 
 function galeria() {
     return (

@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Projetos from './pages/Projetos';
-import Contato from './pages/Contato';
-import Sobre from './pages/Sobre';
-import Galeria from './pages/Galeria'
+import Header from './ajustes/header';
+import Footer from './ajustes/footer';
+import Home from './Telas/home';
+import Projetos from './Telas/projetos';
+import Contato from './Telas/contato';
+import Sobre from './Telas/sobre';
+import Galeria from './Telas/galeria'
 
 function App() {  
 
