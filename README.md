@@ -1,5 +1,11 @@
 # React + Vite
 
+Projeto de WEB III desevolvido pelos alunos:
+- Pedro Henrique de Lima Mendes
+- Pietro Fernando Arruda Silvestre
+- Raphaela Lima Costa
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
 Currently, two official plugins are available:
