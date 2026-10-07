@@ -5,6 +5,7 @@ import imgGaleria4 from '../assets/img-galeria/img-galeria4.png';
 import imgGaleria5 from '../assets/img-galeria/img-galeria5.png';
 import imgGaleria6 from '../assets/img-galeria/img-galeria6.png';
 import imgGaleria7 from '../assets/img-galeria/img-galeria7.png';
+import imgGaleria8 from '../assets/img-galeria/img-galeria8.png';
 
 function galeria() {
     return (
@@ -29,6 +30,9 @@ function galeria() {
             </div>
             <div className="gallery-item">
                <img src={imgGaleria7} />
+            </div>
+            <div className="gallery-item">
+               <img src={imgGaleria8} />
             </div>
         </section>
     );
